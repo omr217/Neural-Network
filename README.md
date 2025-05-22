@@ -29,14 +29,8 @@ The dataset is automatically downloaded using `torchvision.datasets.FashionMNIST
 
 ##### 🧠 Model Architecture
 
-Input Layer (784 units - 28x28 flattened)
-   ↓
-Fully Connected Layer (128 units)
-   ↓
-ReLU Activation
-   ↓
-Fully Connected Layer (10 units for classification)
-
+Input Layer (784 units - 28x28 flattened) -> Fully Connected Layer (128 units)-> ReLU Activation -> Fully Connected Layer (10 units for classification)
+   
 ###### 📌 Notes
 
 The model is basic and can be improved using CNNs for better accuracy.
